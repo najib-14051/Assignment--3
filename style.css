@@ -1,0 +1,46 @@
+.carousel-item img {
+    height: 35vw;
+  }
+  .card-img {
+    height: 220px;
+  }
+  .filter-img {
+    filter: brightness(30%);
+  }
+  .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4b;
+  }
+  .social a {
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    
+  }
+  @media screen and (min-width: 661px) and (max-width: 991px) {
+    .carousel-item img {
+      height: 50vw;
+    }
+    .img-responsive {
+      width: 80%;
+    }
+    .reg-button {
+      margin-right: 20px;
+    }
+  }
+  @media screen and (max-width: 660px) {
+    .carousel-item img {
+      height: 110vw;
+    }
+    .img-responsive {
+      width: 80%;
+    }
+  }
